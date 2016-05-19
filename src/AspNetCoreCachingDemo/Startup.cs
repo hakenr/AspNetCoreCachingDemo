@@ -53,6 +53,9 @@ namespace AspNetCoreCachingDemo
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
+
+			// my services
+			services.AddSingleton<IXyRepository, XyRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
