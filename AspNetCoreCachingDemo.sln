@@ -1,16 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{43B01F8C-A4E0-418B-BA8F-F00334B19569}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5F6B0B76-F195-4A71-ABD5-33DA2D267B7C}"
-	ProjectSection(SolutionItems) = preProject
-		global.json = global.json
-	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "AspNetCoreCachingDemo", "src\AspNetCoreCachingDemo\AspNetCoreCachingDemo.xproj", "{04E01E2B-1F44-4B40-A7E9-69A0D7A351FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreCachingDemo", "src\AspNetCoreCachingDemo\AspNetCoreCachingDemo.csproj", "{04E01E2B-1F44-4B40-A7E9-69A0D7A351FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -28,5 +25,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{04E01E2B-1F44-4B40-A7E9-69A0D7A351FD} = {43B01F8C-A4E0-418B-BA8F-F00334B19569}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02329E63-6243-4079-BA30-4D4A03AECC91}
 	EndGlobalSection
 EndGlobal
